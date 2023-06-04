@@ -40,8 +40,8 @@ body {
   background-color: white;
   height: 300px;
   color: rgba(0, 0, 0, 0.288);
-  width: 100%;
-  border-radius: 10px;
+  width: 364px;
+  border-radius: 6px;
   margin-bottom: 30px;
 }
 
@@ -53,6 +53,10 @@ body {
   outline: none;
   border: 1px solid rgba(0, 0, 0, 0.288);
   padding: 15px;
+}
+
+.rigth_container form input::selection {
+  border: 1px solid #1877f2;
 }
 
 .btn_1 {
@@ -121,10 +125,24 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    align-items: center;
     width: 80%;
     margin: auto;
-  }
-  .left_container {
+    justify-content: center;
     text-align: center;
+  }
+  .main-title {
+    position: inherit;
+    text-align: center;
+  }
+
+  .left_container {
+    top: -60px;
+    right: 40px;
+    line-height: 30px;
+    position: static;
+  }
+
+  .rigth_container {
   }
 }
