@@ -1,0 +1,130 @@
+body {
+  background-color: #f0f2f5;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+}
+
+.left_container {
+  top: -60px;
+  right: 40px;
+  position: relative;
+  line-height: 30px;
+}
+
+.main-title {
+  color: #1877f2;
+  font-size: 4em;
+  justify-content: flex-start;
+}
+
+.leyenda {
+  font-size: 30px;
+}
+
+.rigth_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.rigth_container form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 300px;
+  color: rgba(0, 0, 0, 0.288);
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.rigth_container form input {
+  height: 30px;
+  border-radius: 6px;
+  margin: 10px 0;
+  font-size: 17px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.288);
+  padding: 15px;
+}
+
+.btn_1 {
+  background-color: #1877f2;
+  color: white;
+  height: 50px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.leyenda_input {
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+  color: blue;
+  margin: 10px;
+}
+
+input::placeholder {
+  outline: none;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.btn_2 {
+  background-color: #42b72a;
+  width: 70%;
+  color: white;
+  height: 50px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+}
+
+.btn_2:hover {
+  background-color: #307c23;
+}
+
+.linea {
+  display: inline-block;
+  border-top: 1px solid rgba(0, 0, 0, 0.288);
+  color: black;
+  width: 100%;
+  margin: 10px;
+}
+
+.pie_form {
+  color: #1c1e21;
+  text-align: center;
+}
+
+.pie_form a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+  }
+  .left_container {
+    text-align: center;
+  }
+}
