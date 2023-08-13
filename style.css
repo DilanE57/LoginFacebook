@@ -1,3 +1,13 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-family: sans-serif;
+}
+
 body {
 	background-color: #f0f2f5;
 }
@@ -5,17 +15,10 @@ body {
 .container {
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	height: 90vh;
 	width: 80%;
 	margin: auto;
-}
-
-.left_container {
-	top: -60px;
-	right: 40px;
-	position: relative;
-	line-height: 30px;
 }
 
 .main-title {
@@ -38,18 +41,18 @@ body {
 	display: flex;
 	flex-direction: column;
 	background-color: #fff;
-	height: auto;
+	min-height: 360px;
 	color: rgba(0, 0, 0, 0.288);
-	width: 364px;
 	border-radius: 6px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 input {
-	padding: 14px;
+	padding: 18px;
 	border: 1px solid rgba(0, 0, 0, 0.288);
-	margin: 8px 16px;
 	border-radius: 6px;
+	margin: 10px;
+	width: 330px;
 }
 
 input:focus-visible {
@@ -75,10 +78,8 @@ input:focus-visible {
 	margin: 10px;
 }
 
-input::placeholder {
-	outline: none;
-	padding: 15px;
-	border-radius: 6px;
+.leyenda_input:hover {
+	text-decoration: underline;
 }
 
 .btn_2 {
